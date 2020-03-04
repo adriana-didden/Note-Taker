@@ -1,46 +1,54 @@
-# Unit 11 Express Homework: Note Taker
 
-## Description
+  # Note Taker
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+  ![user badge](https://img.shields.io/badge/license-MIT-red)
 
-* The application frontend has already been created, it's your job to build the backend and connect the two.
+## Description 
+ 
+  using express, build a server for the notetaker app. create api routes in order to GET, POST, and DELETE information from the db.json file. 
 
-* The following HTML routes should be created:
+## Table of Contents 
+ 
+- [Installation](#Installation) 
 
-  * GET `/notes` - Should return the `notes.html` file.
+- [Usage](#Usage) 
 
-  * GET `*` - Should return the `index.html` file
+- [License](#License) 
 
-* The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+- [Contributing](#Contributing) 
 
-* The following API routes should be created:
+- [Tests](#Tests) 
 
-  * GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
-
-  * POST `/api/notes` - Should recieve a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
-
-  * DELETE `/api/notes/:id` - Should recieve a query paramter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
-
-
-## Acceptance Criteria
-
-Application should allow users to create and save notes.
-
-Application should allow users to view previously saved notes.
-
-Application should allow users to delete previously saved notes.
-
-- - -
+- [Questions](#Questions) 
 
 
-## Submission on BCS
+## Installation  
 
-You are required to submit the following:
+```
+npm install
+```
 
-* The URL of the deployed application
+## Usage 
 
-* The URL of the GitHub repository
+nothing
 
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+## License 
+
+This project is licensed under MIT license.
+
+## Contributing 
+
+undefined
+
+## Tests 
+
+```
+npm test
+```
+
+## Questions 
+
+<img src="https://avatars3.githubusercontent.com/u/46576203?v=4" width='100px' />
+
+If you have any questions, please contact adriana-didden directly at adrianadidden@gmail.com. 
+
