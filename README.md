@@ -1,6 +1,8 @@
 
   # Note Taker
 
+<img src="images/noteTaker.png" width='500px' />
+
   ![user badge](https://img.shields.io/badge/license-MIT-red)
 
 ## Description 
